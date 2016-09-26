@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@keyframes teste{
+	17%{background:#FF00FF;}
+	34%{background:#FF0000;}
+	51%{background:#330033;}
+	68%{background:#000099;}
+	85%{background:#7FFF00;}
+	100%{background:#FF2400;}
+}
+@keyframes quadrado{
+	0%{top:0; left:0;}
+	100%{top:500px; left:500px;}	
+}
+
+body{
+	animation:teste;
+	animation-duration:10s;
+	animation-iteration-count: infinite
+}
+
+div{
+	height: 100px; /* altura 
+	width:100px; /* largura 
+	background:#FF0; /* plano de fundo 
+	position:absolute; /* solta a div da grade de conteudo 
+	animation:quadrado; /* chama o nome da animacao q sera aplicada 
+	animation-duration:1s; /* dita o tmp de animacao 
+	animation-iteration-count: infinite/* define a qntd d vzs q sera repetida */
+	
+body{
+	background:rgba(141,224,177,1);
+}
+@keyframes fundo{
+	0%{background:rgba(11,99,85,0)}
+	100%{background:rgba(11,99,85,1)}	
+}
+
+@keyframes ver{
+	0%{opacity:0;}
+	100%{opacity:1;}	
+}
+
+header, nav, section, footer{
+	margin:0 auto;
+}
+
+header{
+	width:1200px;
+	height:120px;
+	animation:fundo;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-delay:1s;
+}
+nav{
+	width:1200px;
+	height:40px;
+	animation:fundo;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-delay:2s;
+}
+section{
+	width:1200px;
+	height:300px;
+	animation:fundo;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-delay:3s;
+}
+footer{
+	width:1200px;
+	height:40px;
+	animation:fundo;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-delay:4s;
+}
+img{
+	opacity:0;
+	animation:ver;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-delay:5s;
+}
